@@ -1,0 +1,240 @@
+body{ 
+    font-family: 'IBM Plex Sans ', sans-serif;
+    font-weight:500;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/* Headings */
+
+.section-heading {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.big-heading {
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 1.5; 
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    
+background-color: #222831;
+color:#fff;
+}
+
+.white-section {
+    background-color:#fff;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 4% 5% 0;
+}
+
+/* Navigation Bar */
+
+.finge-style-text {
+    font-size: 5rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.navbar-brand-text {
+    color:#fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 500;
+ }
+
+
+.nav-item {
+    font-size: 1.7rem;
+    padding: 0 18px;
+}
+
+.navbar {
+    padding: 0;
+    
+}
+
+/* Title Section */
+
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+   
+}
+
+
+/* Title Image */
+
+.iphone-img {
+    
+    border-radius: 50px;
+    transform: rotate(16deg);
+    margin-left: 1rem;
+    position: relative;
+    top: 250px;
+    left:20%;      
+}
+
+
+
+/* Features Section */
+
+
+#features {
+    position:relative;
+    z-index: 1;
+    
+}
+
+.feature-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.features-div {
+    padding: 2% 2% 3% 3%;
+    margin: 2.5% auto;
+   font-size: 1.5rem;
+}
+
+.fas  {
+    color:#C70039;
+    padding: 1rem 0; 
+    margin-bottom: 1.2rem;
+    
+}
+
+.fas:hover {
+    color:#222831;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #6B7180;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.smiling-fish {
+    height: 15%;
+    width: 15%;
+    margin: 20px;
+   
+}
+
+.testimonial-image {
+    height: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #6B7180 ;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+.cta-heading {
+    font-weight: 900; 
+    font-size: 5rem;
+    line-height: 1.5;
+    
+}
+
+.cta-button {
+    margin-bottom: 7rem;
+}
+
+
+/* Footer Section */
+
+.socials {
+    color:#222831;
+    padding: .7rem;
+}
+
+.copyright-text {
+    font-size: 1rem;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width:1056px) {
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+        }
+    #title {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:1055px) and (min-width:992px) {
+    .big-heading {
+    margin-top: 50px;
+    font-family: 'IBM Plex Sans ', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.5;
+    text-align: left;
+
+    }
+    .title-container {
+        padding-top:2rem;
+    }
+    .iphone-img {
+        width: 96%;
+        height:96%;
+    }
+}
